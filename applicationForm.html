@@ -10,7 +10,7 @@
         <a href="./applicationForm.html">Application Form</a>
         <a href="./aboutus.html">About Us</a>
         <h3 style="text-align: center;">Application Form</h3>
-        <form action="" style="border: 1px solid #ddd; padding: 10px;">
+        <form action="" style="width: 400px; margin: 0 auto; border: 1px solid #ddd; padding: 20px;">
             <div>
                 <label for="">First Name:</label>
                 <input type="text">
@@ -23,7 +23,7 @@
             <br>
             <div>
                 <label for="">Age:</label>
-                <input type="number">
+                <input type="number" min="0">
             </div>
             <br>
             <div>
@@ -79,6 +79,7 @@
             <div>
                 <h3>Select Courses</h3>
                 <label><input type="checkbox">C#</label><br>
+                <label><input type="checkbox">React</label><br>
                 <label><input type="checkbox">JavaScript</label><br>
                 <label><input type="checkbox">Full stack Software Engineering</label><br>
                 <label><input type="checkbox">Agile Product Management</label><br>
@@ -88,7 +89,9 @@
                 <label><input type="checkbox">Design thinking & Agile Dev</label>
             </div>
             <br>
-            <input type="submit" value="Submit">
+            <div style="text-align: center;">
+                <input type="submit" value="Submit" style="cursor: pointer;">
+            </div>
             
         </form>
     </body>
