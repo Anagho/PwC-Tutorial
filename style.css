@@ -1,0 +1,25 @@
+body {
+    background-color: lightgray;
+}
+
+h2 {
+    text-align: center;
+    color: yellow;
+}
+img {
+    width: 200px;
+    height: 150px;
+}
+table {
+    width: 700px;
+    margin: auto;
+}
+table, th, td {
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+}
